@@ -6,7 +6,7 @@ from helper import generate_page, copy_static_files, generate_pages_recursive
 
 
 def main():
-    if len(sys.argv) < 1:
+    if len(sys.argv) > 1:
         basepath = sys.argv[1]
     else:
         basepath = '/'
